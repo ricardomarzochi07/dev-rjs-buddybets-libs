@@ -1,0 +1,52 @@
+{
+  "name": "buddybets-i18n-lib",
+  "version": "1.0.7",
+  "description": "Lib i18n International",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardomarzochi07/dev-rjs-buddybets-libs.git"
+  },
+  "keywords": [
+    "i18n",
+    "react",
+    "nextjs",
+    "typescript",
+    "internationalization"
+  ],
+  "author": "Ricardo Marzochi",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "i18next": "^23.10.0",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
+    "js-cookie": "^3.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^13.5.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^24.3.1",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.3"
+  }
+}

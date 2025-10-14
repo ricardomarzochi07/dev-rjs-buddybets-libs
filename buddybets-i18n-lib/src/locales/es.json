@@ -1,0 +1,18 @@
+{
+  "signup": {
+    "title": "Crea tu Cuenta",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "username": "Nombre de usuario",
+    "gender": "Género",
+    "genderMale": "Hombre",
+    "genderFemale": "Mujer",
+    "genderOther": "Otro",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "register": "Registrarse"
+  }
+}

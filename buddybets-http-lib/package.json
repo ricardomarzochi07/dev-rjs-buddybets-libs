@@ -1,0 +1,39 @@
+{
+  "name": "buddybets-http-lib",
+  "version": "1.0.0",
+  "description": "Lib CLIENT HTTPs AXIOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardomarzochi07/dev-rjs-buddybets-libs.git"
+  },
+  "keywords": [
+    "http",
+    "buddybets",
+    "api"
+  ],
+  "author": "Ricardo Marzochi",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "axios": "^1.11.0",
+    "react": "^18.3.1",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "axios": "^1.11.0"
+  }
+}
