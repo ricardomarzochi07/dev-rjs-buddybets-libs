@@ -15,5 +15,17 @@
         "hide": "Hide",
         "register": "Register",
         "registering": "Registering user..."
+    },
+    "validation": {
+        "firstNameMin": "First name must be at least 3 characters",
+        "lastNameMin": "Last name must be at least 3 characters",
+        "passwordMismatch": "Passwords do not match",
+        "passwordWeak": "Password must have min 8 chars, uppercase, lowercase, number and special character",
+        "passwordValid": "Valid password",
+        "usernameLength": "Username must be 3–20 characters long"
+    },
+    "status": {
+        "stSignup": "Registering...",
+        "stInitialization": "Error initializing the page"
     }
 }

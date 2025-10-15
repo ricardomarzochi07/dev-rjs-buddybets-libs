@@ -1,6 +1,6 @@
 {
   "name": "buddybets-i18n-lib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Lib i18n International",
   "type": "module",
   "main": "dist/index.js",

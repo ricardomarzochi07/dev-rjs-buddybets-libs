@@ -14,5 +14,17 @@
         "show": "Mostrar",
         "hide": "Ocultar",
         "register": "Registrarse"
+    },
+    "validation": {
+        "firstNameMin": "El nombre debe tener al menos 3 caracteres",
+        "lastNameMin": "El apellido debe tener al menos 3 caracteres",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "passwordWeak": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un carácter especial",
+        "passwordValid": "Contraseña válida",
+        "usernameLength": "El nombre de usuario debe tener entre 3 y 20 caracteres"
+    },
+    "status": {
+        "stSignup": "Registrando...",
+        "stInitialization": "Error al inicializar la página"
     }
 }
