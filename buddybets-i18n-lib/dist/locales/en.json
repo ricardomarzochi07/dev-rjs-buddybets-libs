@@ -17,12 +17,14 @@
         "registering": "Registering user..."
     },
     "validation": {
-        "firstNameMin": "First name must be at least 3 characters",
-        "lastNameMin": "Last name must be at least 3 characters",
+        "firstNameMin": "First and last name: min 3 characters",
+        "lastNameMin": "First and last name: min 3 characters",
         "passwordMismatch": "Passwords do not match",
-        "passwordWeak": "Password must have min 8 chars, uppercase, lowercase, number and special character",
+        "passwordWeak": "Password: 8+ characters, with letter, number & symbol.",
         "passwordValid": "Valid password",
-        "usernameLength": "Username must be 3–20 characters long"
+        "usernameLength": "Username must be 3–20 characters long",
+        "emailInvalid": "The email address is invalid",
+        "genderRequired": "Please select a gender"
     },
     "status": {
         "stSignup": "Registering...",

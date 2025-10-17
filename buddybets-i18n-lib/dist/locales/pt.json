@@ -16,12 +16,14 @@
         "register": "Registrar"
     },
     "validation": {
-        "firstNameMin": "O nome deve ter pelo menos 3 caracteres",
-        "lastNameMin": "O sobrenome deve ter pelo menos 3 caracteres",
+        "firstNameMin": "Nome e sobrenome: mínimo 3 caracteres",
+        "lastNameMin": "Nome e sobrenome: mínimo 3 caracteres",
         "passwordMismatch": "As senhas não coincidem",
-        "passwordWeak": "A senha deve ter pelo menos 8 caracteres, uma maiúscula, uma minúscula, um número e um caractere especial",
+        "passwordWeak": "Senha: 8+ caracteres, com letra, número e símbolo",
         "passwordValid": "Senha válida",
-        "usernameLength": "O nome de usuário deve ter entre 3 e 20 caracteres"
+        "usernameLength": "O nome de usuário deve ter entre 3 e 20 caracteres",
+        "emailInvalid": "O endereço de e-mail é inválido",
+        "genderRequired": "Selecione um gênero"
     },
     "status": {
         "stSignup": "Registrando...",

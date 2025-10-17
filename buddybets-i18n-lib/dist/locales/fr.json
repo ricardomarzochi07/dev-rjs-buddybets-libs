@@ -16,12 +16,14 @@
         "register": "S'inscrire"
     },
     "validation": {
-        "firstNameMin": "Le prénom doit contenir au moins 3 caractères",
-        "lastNameMin": "Le nom de famille doit contenir au moins 3 caractères",
+        "firstNameMin": "Prénom et nom: min. 3 caractères",
+        "lastNameMin": "Prénom et nom: min. 3 caractères",
         "passwordMismatch": "Les mots de passe ne correspondent pas",
-        "passwordWeak": "Le mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial",
+        "passwordWeak": "Mot de passe : 8+ caractères, avec lettre, chiffre et symbole",
         "passwordValid": "Mot de passe valide",
-        "usernameLength": "Le nom d'utilisateur doit comporter entre 3 et 20 caractères"
+        "usernameLength": "Le nom d'utilisateur doit comporter entre 3 et 20 caractères",
+        "emailInvalid": "L'adresse e-mail est invalide",
+        "genderRequired": "Veuillez sélectionner un genre"
     },
     "status": {
         "stSignup": "Inscription en cours...",
